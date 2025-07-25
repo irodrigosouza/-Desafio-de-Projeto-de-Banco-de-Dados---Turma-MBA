@@ -60,8 +60,7 @@ A tabela intermediária `ENQUADRAMENTO_FORNECEDOR` viabiliza a implementação d
 - Qual foi a **taxa média aplicada** aos fornecedores da faixa _"MÉDIA-ALTA"_ no último semestre?
 - Como o **share** dos fornecedores evoluiu ao longo do tempo?
 - Que impacto uma mudança na meta Selic teve sobre a taxa final aplicada?
-  
----
+
 ---
 
 ## 🛠️ Scripts de Criação das Tabelas
@@ -70,7 +69,8 @@ Abaixo estão os scripts SQL utilizados para criar as tabelas do modelo relacion
 
 ### 📄 Tabela `FORNECEDOR`
 
-```CREATE TABLE FORNECEDOR (
+```sql
+CREATE TABLE FORNECEDOR (
     id_fornecedor INT PRIMARY KEY,
     radical_cnpj VARCHAR(255),
     razao_social VARCHAR(255),
@@ -109,3 +109,7 @@ CREATE TABLE ENQUADRAMENTO_FORNECEDOR (
     FOREIGN KEY (id_faixa) REFERENCES FAIXA_PERFORMANCE(id_faixa),
     FOREIGN KEY (id_reuniao) REFERENCES COMITE_TAXAS(id_reuniao)
 );
+
+
+![Diagrama de Relacionamento](Diagrama de Relacionamento.drawio.png)
+
