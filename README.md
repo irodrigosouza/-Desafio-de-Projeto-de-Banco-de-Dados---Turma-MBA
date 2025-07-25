@@ -85,8 +85,11 @@ CREATE TABLE ENQUADRAMENTO_FORNECEDOR (
 );
 ```
  
-## Modelagem ER
+## Modelagem
+### Modelo ER
 ![Diagrama de Relacionamento](https://raw.githubusercontent.com/irodrigosouza/-Desafio-de-Projeto-de-Banco-de-Dados---Turma-MBA/main/Diagrama%20de%20Relacionamento.drawio.svg)
+### Modelo Lógico
+![Diagrama de Relacionamento](https://github.com/irodrigosouza/-Desafio-de-Projeto-de-Banco-de-Dados---Turma-MBA/blob/main/Modelo%20Logico.svg)
 
 
 ## 🛠️ Scripts de Inserção de dados nas tabelas
