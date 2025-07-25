@@ -110,6 +110,8 @@ CREATE TABLE ENQUADRAMENTO_FORNECEDOR (
     FOREIGN KEY (id_reuniao) REFERENCES COMITE_TAXAS(id_reuniao)
 );
 
+![Imagem de teste](./img.png)
 
-![Diagrama de Relacionamento](Diagrama de Relacionamento.drawio.png)
+
+
 
